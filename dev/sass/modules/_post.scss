@@ -1,16 +1,26 @@
 .post-list {
-
+	
 }
 
 .post-item {
 	padding: $space;
+	min-height: $space * 8;
 	margin-bottom: $space / 2;
 	background: $white;
-	border: solid 1px $black30;
+	box-shadow: 0 1px 1px $black30;
+	transition: all .2s ease;
+	overflow: hidden;
+	//border: solid 1px $black30;
+
+	&:hover{
+		box-shadow: 0 4px 10px $black30;
+		transform: translateY(-2px);
+	}
 }
 
 .post-anchor {
 	color: currentcolor;
+	display: block;
 
 	&:hover,
 	&:focus {

@@ -45,7 +45,8 @@ a {
 }
 
 main {
-    padding-top: $sitenav-height * 1.5;
+    margin-top: $sitenav-height;
+    padding-top: $space / 2;
 }
 
 .block {
@@ -53,8 +54,8 @@ main {
 }
 
 .container {
-    width: 95%;
-    max-width: 960px;
+    width: 90%;
+    max-width: 860px;
     margin: 0 auto;
 }
 
