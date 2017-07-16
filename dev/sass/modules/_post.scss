@@ -1,0 +1,31 @@
+.post-list {
+
+}
+
+.post-item {
+	padding: $space;
+	margin-bottom: $space / 2;
+	background: $white;
+	border: solid 1px $black30;
+}
+
+.post-anchor {
+	color: currentcolor;
+
+	&:hover,
+	&:focus {
+		color: currentcolor;
+	}
+}
+
+.post-title {
+	//margin-bottom: 0;
+}
+
+.post-date {
+
+}
+
+.post-content {
+	margin-bottom: 0;
+}
